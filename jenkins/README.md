@@ -119,10 +119,10 @@ This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
 docker run --name jenkins \
            -d \
            -p 8080:8080 \
-		   -p 50000:50000 \
-		   -v /var/jenkins_home:/var/jenkins_home \
-		   --restart always \
-		   jenkins/jenkins:lts
+		  -p 50000:50000 \
+		  -v /var/jenkins_home:/var/jenkins_home \
+		  --restart always \
+		  jenkins/jenkins:lts
 ```
 
 
