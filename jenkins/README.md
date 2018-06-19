@@ -116,7 +116,8 @@ This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
 
 
 ```bash
-docker run	--name jenkins \
+docker run \
+			--name jenkins \
 			-d \
 			-p 8080:8080 \
 			-p 50000:50000 \
