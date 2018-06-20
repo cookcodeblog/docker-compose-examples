@@ -83,7 +83,7 @@ docker-compose up -d
 
 
 
-运行 `docker log -f jenkins`  查看Jenkins日志。
+运行 `docker logs -f jenkins`  查看Jenkins日志。
 
 
 
