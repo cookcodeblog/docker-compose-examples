@@ -1,0 +1,11 @@
+version: '3'
+services:
+  grafana:
+    image: 'grafana/grafana:5.1.0'
+    container_name: grafana
+    restart: always
+    ports:
+      - '3000:3000'
+    user: "root"
+    volumes:
+      - '/var/grafana_data:/var/lib/grafana'
